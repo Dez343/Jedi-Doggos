@@ -10,7 +10,7 @@ for (var i = 0; i < elements.length; i++) {
             var text = node.nodeValue;
 
             // var council = text.replace(/Republican Party/gi, 'Sith Council');
-            var replacedText = text.replace(/Republican/gi, 'Sith Lord');
+            var replacedText = text.replace(/Dog/gi, 'Jedi Knight');
 
             if (replacedText !== text) {
                 element.replaceChild(document.createTextNode(replacedText), node);
